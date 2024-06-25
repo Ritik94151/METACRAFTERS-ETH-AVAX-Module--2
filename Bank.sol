@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract Bank {
+contract Banks {
     mapping(address => string) accountNames;
 
     event Transfer(uint256 amount);
